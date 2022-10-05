@@ -12,7 +12,7 @@ dotenv.config()
  * Configuration *
  *****************/
 
-const DRY_RUN = true; /* Toggle ability to send messages */
+const DRY_RUN = false; /* Toggle ability to send messages */
 
 const preferences = {
     channels: [
