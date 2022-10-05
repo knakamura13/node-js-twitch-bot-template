@@ -5,19 +5,19 @@
   "main": "app.js",
   "repository": "https://github.com/knakamura13/node-js-twitch-hype-bot",
   "dependencies": {
-    "axios": "^0.21.1",
-    "chalk": "^2.4.2",
-    "dotenv": "^8.0.0",
-    "fluent-ffmpeg": "^2.1.2",
-    "jsonfile": "^5.0.0",
-    "lodash": "^4.17.14",
-    "mongodb": "^4.6.0",
+    "axios": "^1.0.0",
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "jsonfile": "^6.1.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.10.0",
     "pad": "^3.2.0",
-    "twitch-js": "^2.0.0-beta.30"
+    "twitch-js": "^2.0.0-beta.43"
   },
   "scripts": {
     "start": "supervisor app.js || node app.js"
   },
   "author": "Kyle Nakamura",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
