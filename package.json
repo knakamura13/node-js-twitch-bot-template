@@ -1,7 +1,7 @@
 {
   "name": "twitch-bot",
   "version": "1.0.0",
-  "description": "A simple, yet elegant chat bot for the Twitch built with NodeJS and IRC.",
+  "description": "A simple, yet elegant chat bot for Twitch built with NodeJS.",
   "main": "app.js",
   "repository": "https://github.com/knakamura13/node-js-twitch-hype-bot",
   "dependencies": {
